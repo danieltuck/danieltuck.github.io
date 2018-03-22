@@ -1,0 +1,240 @@
+<!DOCTYPE html PUBLIC"-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml1" lang="en" xml:lang="en">
+    <head>
+        <title>Daniel Tuck's Homepage</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <style>
+        html {
+        margin:0;
+        padding:0;
+    height:100%;
+        }
+
+        body {color:white;
+              font-family:"Trebuchet MS", sans-serif;
+             background-color:#161A1C;
+             background:  -moz-linear-gradient(19% 75% 90deg,#41464a, #161A1C);
+       background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#41464a), to(#161A1C));
+       height:100%;
+       overflow:hidden;
+             }
+        #wrapper {width:1030px;
+                 min-height:100%;
+                 margin-top:0px;
+                 padding:0px;
+                 border:0px;
+                 margin-left:auto;
+                 margin-right:auto;
+         position:relative;
+        }
+
+        #nav ul {
+  		list-style-type:none;
+
+        }
+
+        #nav ul li {
+        float:left;
+        position:relative;
+        }
+
+        #nav ul li a {
+         text-align: left;
+         padding:2px;
+         display:block;
+         text-decoration:none;
+         color:#FFF;
+         border-top: 1px solid white;
+         border-bottom: 1px solid white;
+         }
+
+         #nav ul li ul {
+         display: none;
+         }
+
+         #nav ul li:hover ul {
+         display: block;
+         position: absolute;
+         padding:0px;
+         }
+
+         #nav ul li:hover ul li a {
+         display:block;
+         color:#ffffff;
+         width: 300px;
+         text-align: left;
+         border:none;
+         }
+         #nav ul li:hover ul li a:hover {
+         color:#607D96;
+         font-weight: 1000em;
+         }
+
+         .divided{
+         border-top: 1px solid white;
+         padding-top:3px;
+         width:90px;
+         }
+
+         .head{
+         font-size:16pt;
+         padding:20px;
+         }
+
+         form {
+         width:670px;
+         padding:20px;
+         border: 1px solid white;
+         margin-top:280px;
+
+    /*** Rounded Corners ***/
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+
+    /*** Background Gradient - 2 declarations one for Firefox and one for Webkit ***/
+    background:  -moz-linear-gradient(19% 75% 90deg,#41464a, #161A1C);
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#41464a), to(#161A1C));
+
+    /*** Shadow behind the box ***/
+    -moz-box-shadow:0px -5px 300px black;
+    -webkit-box-shadow:0px -5px 300px black;
+         }
+
+         .searchbox {
+         width:530px;
+         height:30px;
+         -moz-border-radius: 10px;
+         -webkit-border-radius: 10px;
+         font-family:"Trebuchet MS", Verdana, sans-serif;
+         font-size:14pt;
+         text-shadow:1px 1px 5px gray;
+         color:#41464a;
+         padding-left:5px;
+         background:#edf0f2;
+         }
+
+         .searchbox:focus{
+           outline:none;
+           -webkit-box-shadow:0px 0px 10px #497ca8;
+         }
+         .button:hover{
+           -webkit-box-shadow:0px 0px 5px white;
+         }
+
+         #footer {
+           margin-top:350px;
+         }
+
+         #footer a:link {
+           color:white;
+           text-decoration:none;
+           font-family:"Arial Narrow", sans-serif;
+           font-size:8pt;
+         }
+
+         #footer a:visited {
+           color:white;
+         }
+
+        </style>
+        <script type="text/javascript">
+      function searchGoogle() {
+      var sf=document.searchform;
+      var submitto = "http://www.google.com/search?q=" + escape(sf.searchterms.value);
+      window.location.href = submitto;
+      return false;
+      }
+      function searchWolframAlpha() {
+      var sf=document.searchform;
+      var submitto = "http://www.wolframalpha.com/input/?i=" + escape(sf.searchterms.value);
+      window.location.href = submitto;
+      return false;
+      }
+
+    </script>
+    </head>
+
+    <body OnLoad="document.searchform.searchterms.focus();">
+    <div id=wrapper>
+    <br />
+    <br />
+    <div id=nav>
+     	<ul>
+           	<li><a href="#" class=head style="padding:10px 20px;">GOOGLE</a>
+                 	<ul>
+                         	<li><a href="http://plus.google.com">+Daniel</a></li>
+                        <li><a href="http://mail.google.com">Gmail</a></li>
+                       	<li><a href="http://images.google.com">Images</a></li>
+                       	<li><a href="http://calendar.google.com">Calendar</a></li>
+                       	<li><a href="http://maps.google.com">Maps</a></li>
+                       	<li><a href="http://drive.google.com">Drive</a></li>
+                       	<li><a href="http://sites.google.com">Sites</a></li>
+                       	<li><a href="http://translate.google.com">Translate</a></li>
+                        <li><a href="http://www.youtube.com">Youtube</a></li>
+                       	<li><a href="http://www.google.com/intl/en/options/">Even More...</a></li>
+                       	<li class=divided><a href="https://accounts.google.com/Logout">Login/out</a></li>
+                 	</ul>
+             	</li>
+              <li><a href="#" class=head class=first style="padding:10px 20px;">LEGO</a>
+                  <ul>
+                       	<li><a href="http://www.brothers-brick.com">Brothers Brick</a></li>
+                       	<li><a href="http://www.fbtb.net">FBTB</a></li>
+                       	<li><a href="http://gimmelego.blogspot.com">Gimme Lego</a></li>
+                 	</ul>
+             	</li>
+             	<li><a href="#" class=head style="padding:10px 20px;">AFTER EFFECTS</a>
+                   	<ul>
+                       	<li><a href="http://cgi.tutsplus.com/categories/adobe-after-effects">AE Tuts</a></li>
+                       	<li><a href="http://www.videocopilot.net">VideoCopilot</a></li>
+                       	<li><a href="http://www.motionworks.com.au">Motionworks</a></li>
+                       	<li><a href="http://prolost.com">Prolost</a></li>
+                 	</ul>
+             	</li>
+             	<li><a href="#" class=head style="padding:10px 20px;">PHOTOSHOP</a>
+                 	<ul>
+                       	<li><a href="http://design.tutsplus.com/categories/photoshop">PSD Tuts</a></li>
+                       	<li><a href="http://www.ctrlpaint.com">Ctrl Paint</a></li>
+                       	<li><a href="http://www.conceptcookie.com">Concept Cookie</a></li>
+                       	<li><a href="http://www.abduzeedo.com">Abduzeedo</a></li>
+                       	<li><a href="http://www.fudgegraphics.com">Fudge Graphics</a></li>
+                 	</ul>
+             	</li>
+             	<li><a href="#" class=head style="padding:10px 20px;">BLENDER</a>
+                 	<ul>
+                       	<li><a href="http://www.blenderguru.com">BlenderGuru</a></li>
+                       	<li><a href="http://www.blendercookie.com">Blender Cookie</a></li>
+                       	<li><a href="http://cgi.tutsplus.com/categories/3d">CG Tuts</a></li>
+                       	<li><a href="http://www.blender.org">Blender.org</a></li>
+                 	</ul>
+             	</li>
+             	<li><a href="#" class=head style="padding:10px 20px;">VIDEO</a>
+                 	<ul>
+                       	<li><a href="http://www.dslrvideoshooter.com">DSLR Video Shooter</a></li>
+                       	<li><a href="http://www.nofilmschool.com">nofilmschool</a></li>
+                 	</ul>
+             	</li>
+             	<li><a href="#" class=head class=last style="padding:10px 20px;">BLOGS ETC.</a>
+                 	<ul>
+                       	<li><a href="http://www.lifehacker.com">Lifehacker</a></li>
+                       	<li><a href="http://www.gizmodo.com">Gizmodo</a></li>
+                        <li><a href="http://www.io9.com">io9</a></li>
+                          <li><a href="http://www.tested.com">io9</a></li>
+                       	<li><a href="http://www.wired.com">Wired</a></li>
+                 	</ul>
+             	</li>
+       	</ul>
+       	</div>
+           <center><form name="searchform" id="search" autocomplete="off">
+              <input type="text" name="searchterms" class="searchbox">
+              <input type="image" src="google_small.png" alt="google" height="30px" width="30px" name="SearchSubmit" value="Google" onClick="return searchGoogle();" style="margin-bottom:-8px; margin-left: 5px; margin-right:5px;" class="button">
+              <input type="image" src="wolfram_small.png" alt="wolframAlpha" height="30px" width="30px" name="SearchSubmit" value="WolframAlpha" onClick="return searchWolframAlpha();" style="margin-bottom:-8px;" class="button">
+          </form></center>
+          <div id=footer>
+            <center><a href="http://www.google.com" target="_blank">Google</a> | <a href="http://www.wolframalpha.com" target="_blank">WolframAlpha</a></center>
+          </div>
+         	</div>
+   	</body>
+</html>
